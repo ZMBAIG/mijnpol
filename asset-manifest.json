@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mijnpol/static/css/main.0cd7dc5c.chunk.css",
+    "main.js": "/mijnpol/static/js/main.6298beee.chunk.js",
+    "main.js.map": "/mijnpol/static/js/main.6298beee.chunk.js.map",
+    "runtime-main.js": "/mijnpol/static/js/runtime-main.f5f23cea.js",
+    "runtime-main.js.map": "/mijnpol/static/js/runtime-main.f5f23cea.js.map",
+    "static/js/2.508f7f2b.chunk.js": "/mijnpol/static/js/2.508f7f2b.chunk.js",
+    "static/js/2.508f7f2b.chunk.js.map": "/mijnpol/static/js/2.508f7f2b.chunk.js.map",
+    "index.html": "/mijnpol/index.html",
+    "static/css/main.0cd7dc5c.chunk.css.map": "/mijnpol/static/css/main.0cd7dc5c.chunk.css.map",
+    "static/js/2.508f7f2b.chunk.js.LICENSE.txt": "/mijnpol/static/js/2.508f7f2b.chunk.js.LICENSE.txt",
+    "static/media/Politie-logo-269952DA5A-seeklogo.com.cba84140.png": "/mijnpol/static/media/Politie-logo-269952DA5A-seeklogo.com.cba84140.png",
+    "static/media/Main.css": "/mijnpol/static/media/Steffie-02.3d1ca323.jpg",
+    "static/media/embleem.f6480e11.png": "/mijnpol/static/media/embleem.f6480e11.png",
+    "static/media/politiemotor.ddab391b.jpg": "/mijnpol/static/media/politiemotor.ddab391b.jpg",
+    "static/media/vuurwerk.e1f369b7.jpg": "/mijnpol/static/media/vuurwerk.e1f369b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5f23cea.js",
+    "static/js/2.508f7f2b.chunk.js",
+    "static/css/main.0cd7dc5c.chunk.css",
+    "static/js/main.6298beee.chunk.js"
+  ]
+}
