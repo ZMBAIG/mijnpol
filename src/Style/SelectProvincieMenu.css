@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border;
+}
+
+#select-provincie {
+  border: 1px solid white;
+  padding: 0px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  font: 0.8em Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: rgb(192, 249, 249);
+}
+
+.fa-caret-left {
+  font-size: 2em;
+  margin-right: 6px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+.dropdown-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  color: darkblue;
+}
+
+.dropdown-menu-content {
+  display: none;
+  position: absolute;
+  padding-right: 18px;
+  margin-top: 9px;
+  z-index: 1;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 200px;
+}
+
+.dropdown-menu:hover .dropdown-menu-content {
+  display: block;
+  background-color: rgb(24, 4, 57);
+  font-weight: bold;
+  margin-top: 2em;
+  color: white;
+}
+ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+li {
+  background-color: var(--primary-clr-03);
+  text-align: left;
+  margin: 6px;
+  list-style-type: none;
+}
+
+ul li:hover {
+  padding: 4px;
+  background-color: var(--primary-clr-06);
+}
+
+#provincie-naam {
+  font: 1em Roboto;
+  padding: 4px 20px;
+  border: 1px solid white;
+  white-space: nowrap;
+  color: var(--primary-clr-04);
+  background-color: aqua;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}

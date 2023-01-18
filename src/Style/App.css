@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto";
+  margin: 0px 40px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(202, 205, 245, 0.24),
+    rgb(151, 191, 236)
+  );
+}
+
+#filters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  color: white;
+  border: 2px rgb(168, 175, 249) solid;
+  background-image: var(--grad-clr-03);
+  font: bold 1em Roboto;
+}
+
+label {
+  margin: 0px 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 8px 5px;
+}
+
+.chart-div {
+  display: flex;
+  background-image: var(--grad-clr-03);
+  padding: 12px;
+  border: 2px rgb(2, 12, 119) solid;
+}
+
+figure {
+  /* margin: 0; */
+  margin-bottom: 20px;
+  border: 2px solid rgb(241, 241, 246);
+  outline: 6px solid darkblue;
+  max-width: 100%;
+  padding: 40px;
+  background-color: var(--primary-clr-04);
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,56 @@
+footer {
+  background-color: rgb(13, 13, 13);
+  color: white;
+  padding: 25px;
+  margin: 2em auto;
+}
+
+footer div a {
+  color: var(--primary-clr-03);
+  text-decoration: none;
+}
+
+.vacatures {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.disclaim {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 8px 0;
+}
+.disclaim a {
+  color: var(--primary-clr-01);
+  font-size: 0.75em;
+  border-right: 2px solid var(--primary-clr-01);
+  padding-right: 10px;
+}
+.disclaim a:last-child {
+  border: none;
+}
+.disclaim a:hover {
+  border-bottom: 2px solid white;
+}
+
+.vacatures a:hover {
+  border-bottom: 2px var(--primary-clr-06) solid;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 1em;
+  gap: 0.5em;
+}
+.social-media a {
+  color: #fff;
+}
+.social-media .fa:hover {
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 50%;
+  border: white 1.5px solid;
+}

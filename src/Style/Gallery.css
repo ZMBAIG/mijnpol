@@ -1,0 +1,40 @@
+h2 {
+  padding: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+div.gallery {
+  margin: 10px;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+div.gallery:hover {
+  box-shadow: 10px 10px 5px var(--primary-clr-02);
+  cursor: pointer;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-size: 14px;
+  padding: 12px;
+}
+.desc p::first-letter {
+  color: red;
+  font-size: 2em;
+  border: 1px solid;
+  padding: 1px;
+  margin-right: 6px;
+}

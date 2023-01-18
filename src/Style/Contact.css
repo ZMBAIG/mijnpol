@@ -1,0 +1,90 @@
+form {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1.5px solid var(--primary-clr-06);
+  margin: 30px auto;
+  padding: 20px;
+  background-image: var(--grad-clr-03);
+  color: var(--primary-clr-04);
+  outline: 8px solid var(--primary-clr-03);
+  box-shadow: var(--grad-clr-02);
+}
+.form h4 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.blue {
+  color: blue;
+}
+#role,
+.form input {
+  padding: 8px;
+  margin: 4px 0;
+  border: none;
+  border-bottom: 3px solid var(--primary-clr-04);
+}
+#role:hover {
+  background-color: var(--primary-clr-03);
+}
+
+#current option:nth-child(odd) {
+  background-color: rgb(142, 165, 245);
+}
+.keuze {
+  margin: 0;
+  text-align: left;
+}
+
+.form input:hover {
+  background-color: var(--primary-clr-02);
+}
+.bet {
+  margin-bottom: 0;
+  text-align: left;
+}
+.betreft {
+  margin-left: 2em;
+  padding: 0.5em 0;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+form p {
+  font-size: 12px;
+  text-align: center;
+}
+p span {
+  color: red;
+}
+input[type="radio"] {
+  margin-left: 10px;
+}
+.submit {
+  padding: 8px;
+  margin: 20px;
+  background-color: var(--primary-clr-04);
+  color: var(--primary-clr-06);
+  border-radius: 25px;
+  border: 0.75px solid var(--primary-clr-06);
+  outline: 4px solid var(--primary-clr-04);
+  box-shadow: var(--grad-clr-02);
+}
+
+.submit:hover {
+  cursor: pointer;
+  border: none;
+  color: var(--primary-clr-04);
+  background-color: var(--primary-clr-07);
+}

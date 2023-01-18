@@ -1,0 +1,35 @@
+:root {
+  --primary-clr-01: aliceblue;
+  --primary-clr-02: #bfbdbd;
+  --primary-clr-03: rgb(24, 104, 201);
+  --primary-clr-03-a: rgb(97, 137, 185);
+  --primary-clr-04: rgba(9, 12, 81, 0.981);
+  --primary-clr-05: rgb(245, 245, 33);
+  --primary-clr-06: rgb(251, 203, 82);
+  --primary-clr-07: rgb(161, 243, 67);
+
+  /* gradient colors */
+
+  --grad-clr-01: linear-gradient(
+    to right,
+    rgba(202, 205, 245, 0.24),
+    rgb(151, 191, 236)
+  );
+
+  --grad-clr-02: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  --grad-clr-03: linear-gradient(
+    to right,
+    rgba(202, 205, 245, 0.24),
+    rgb(100, 162, 232)
+  );
+
+  --grad-clr-04: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(89, 128, 241, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

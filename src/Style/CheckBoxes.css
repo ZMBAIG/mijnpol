@@ -1,0 +1,35 @@
+#checkbox-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 8px; */
+  /* gap: 0.5em; */
+}
+
+#aangifte-checkbox-label {
+  color: aliceblue;
+  background-color: var(--primary-clr-04);
+}
+
+#gemist-checkbox-label {
+  color: var(--primary-clr-04);
+  background-color: var(--primary-clr-06);
+}
+
+#gemist-checkbox-label,
+#aangifte-checkbox-label {
+  padding: 5px 10px;
+  font: 0.8em Roboto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+}
+
+#gemist-checkbox-label:hover {
+  background-color: var(--primary-clr-07);
+  color: var(--primary-clr-04);
+}
+
+#aangifte-checkbox-label:hover {
+  background-color: var(--primary-clr-07);
+  color: var(--primary-clr-04);
+}
